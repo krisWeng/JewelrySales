@@ -1,0 +1,11 @@
+/* .el-select-dropdown{
+  min-width: 100px!important;
+  left: 20px!important;
+} */
+.el-select-dropdown__list{
+  display: flex;
+  flex-direction: column;
+}
+.el-popper[x-placement^=bottom]{
+  margin-top: 6px!important;
+}
