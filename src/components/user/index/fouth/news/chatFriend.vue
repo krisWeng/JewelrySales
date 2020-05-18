@@ -167,8 +167,8 @@
       backText(callback) {
         let that = this;
         if (window.WebSocket) {
-          let ws = new WebSocket("ws://47.113.113.117:3001'");
-          // let ws = new WebSocket("ws://192.168.0.121:3001");
+          // let ws = new WebSocket("ws://47.113.113.117:3001'");
+          let ws = new WebSocket("ws://192.168.0.121:3001");
           ws.onopen = function (e) {
             console.log("链接服务器成功");
             if(that.msgCont!=''){
